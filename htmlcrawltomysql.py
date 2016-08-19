@@ -88,5 +88,17 @@ while flag == 1:
 	cursor.close()
 	conn.close()
 	procedure1()
+	
+	# python3
+	# for search in text:
+	# url = search
+	# req = urllib.request.Request(url)
+	# req.add_header("User-agent", USERAGENT)
+	# response = urllib.request.urlopen(req)
+	# html = response.read()
+	# soup=BeautifulSoup(html)    
+	# resultDirty = soup.find(name="**")
+	# response.close()
+	# print(resultDirty)
 
 
